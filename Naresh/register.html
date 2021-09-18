@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register page</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../font/css/all.css">
+    </head>
+    <body class="container-fluid">
+        <br>
+    <h1 class="text-center">Web Technology</h1>
+    <br>
+    <div class=" btn-toolbar bg-dark p-3 justify-content-between" style="border-radius: 4px;">
+        <div class="btn-group">
+        
+            <button class="btn-dark border-0"><a class="text-light text-decoration-none" href="index.html"><span class="fa fa-home"></span> Home</a></button>
+           <button class="btn-dark border-0"><a class="text-light text-decoration-none" href="about.html"><span class="fa fa-user-alt"></span>About</a></button>
+            <button class="btn-dark border-0"><a class="text-light text-decoration-none" href="service.html"><span class="fa fa-question-circle"></span>Service</a></button>
+            <button class="btn-dark border-0"><a class="text-light text-decoration-none" href="contact.html"><span class="fa fa-phone-alt"></span>Contact</a></button>
+    </div>
+        <div class="btn-group">
+            <div class="dropdown">
+            <button class="btn-dark border-0 dropdown-toggle class="text-light"" data-bs-toggle="dropdown">Sign In</button>
+            <ul class="dropdown-menu dropdown-menu-dark p-2">
+                <li> <a class="text-light text-decoration-none"  href="login.html" class="dropdown-item active"><span class="fa fa-sign-in-alt"></span>Sign in</a></li>
+                <li><a class="text-light text-decoration-none" href="register.html" class="dropdown-item"><span class="fa fa-sign-out-alt"></span>Sign-up</a></li>
+                <li><a class="text-light text-decoration-none" href="#" class="dropdown-item"><span class="fa fa-unlock-alt"></span>change Password</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class=" col-12 col-sm-4 col-xxl-5 my-3 "style="margin-left:340px; border: 1px solid gray; border-radius: 10px; box-shadow:20px 20px 28px green;" >
+            <h3 class="text-center mt-2">Registration Page</h3><br>
+            <form action="" method="POST">
+                <label for="Full Name"><b>Full Name</b></label>
+                <input type="text" class="form-control" placeholder="Enter Your Full Name" name="" id="">
+                <label for="Email"><b>Email</b></label>
+                <input type="email" name="" id="" placeholder="Enter Your Email" class="form-control"><br>
+                <label for="Mobile"><b>Mobile </b></label>
+                <input type="number" placeholder="Enter Your Mobile Number" class="form-control">
+                <label for="Date of Birth"><b>Date Of Birth</b></label>
+                <input type="date" placeholder="DOB" class="form-control">
+                <label for="Choose File"><b>Choose file</b></label>
+                <input type="file" placeholder="Choose Your File" accept=".pdf|.jpg| .txt" class="form-control">
+                <label for="Password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" class="form-control">
+                <label for="Password"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Enter Confirm Password" class="form-control">
+                <label for="Gender"><b>Gender</b></label>
+                <br>
+                <input type="radio"  name="gender" id="gender" value="Male" required>Male
+                <input type="radio"  name="gender" id="gender" value="Female" required>Female
+                <input type="radio"  name="gender" id="gender" value="Female" required>Other
+
+               <br><br>
+               <input type="checkbox" name="term"><span> I have read and accept the <a href="#">terms and condition</a></span>
+              <br><br> <button class="btn btn-primary">Register</button>
+               <button class=" btn btn-warning" ><a class="text-decoration-none text-light" href="login.html">Already have an account</a></button>
+
+                <br><br>
+            </form>
+            </div>
+            <div class="col-sm-4" style="margin-left: 100px;">
+                <img src="../assets/reg.png" widht="250" height="250" alt="">
+            </div>
+            <br><br>
+
+        </div>
+    </div>
+
+    <div class="footer bg-danger text-center text-light">
+        <div class="row ">
+            <h6 class="mt-4" style="text-shadow: 2px 2px 3px gray;">Naresh Technologies</h6><br><br>
+            <div class="m-lg-2 col-3 text-white">
+                <ul class="list-unstyled">
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fab fa-facebook"></span>facebook</a></li>
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fa fa-mail-bulk"></span>Google</a></li>
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fab fa-twitter"></span>Twitter</a></li>
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fab fa-youtube-square"></span>YouTube</a></li>
+                </ul>
+
+            </div>
+            <div class="col-3">
+                <ul class="list-unstyled">
+                    <li><a class="text-decoration-none text-white" href="#"><span class="fa fa-home"></span>Home</a>
+                    </li>
+                    <li><a class="text-decoration-none text-white" href="#"><span class="fa fa-user"></span>About</a>
+                    </li>
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fa fa-question-circle"></span>Service</a></li>
+                    <li><a class="text-decoration-none text-white" href="#"><span class="fa fa-phone"></span>Contact</a>
+                    </li>
+                    <!-- <li><a href="#"><span class="fa fa-home"></span>Home</a></li> -->
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul class="list-unstyled">
+                    <li>Name: Naresh Institute</li>
+                    <li>Email: info@nareshit.in</li>
+                    <li>Contact: +91-xxxxxxxxxx</li>
+                    <li>Address: Sr Nagar, Hyderbad,Telangana, India.</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+ 
+    </body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About</title>
+    <link rel="stylesheet" href="../font/css/all.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container-fluid">
+    <br>
+    <h1 class="text-center">Web Technology</h1>
+    <br>
+    <div class=" btn-toolbar bg-dark p-3 justify-content-between" style="border-radius: 4px;">
+        <div class="btn-group">
+
+            <button class="btn-dark border-0"><a class="text-light text-decoration-none" href="index.html"><span
+                        class="fa fa-home"></span> Home</a></button>
+            <button class="btn-dark border-0"><a class="text-light text-decoration-none" href="about.html"><span
+                        class="fa fa-user-alt"></span>About</a></button>
+            <button class="btn-dark border-0"><a class="text-light text-decoration-none" href="service.html"><span
+                        class="fa fa-question-circle"></span>Service</a></button>
+            <button class="btn-dark border-0"><a class="text-light text-decoration-none" href="contact.html"><span
+                        class="fa fa-phone-alt"></span>Contact</a></button>
+        </div>
+        <div class="btn-group">
+            <div class="dropdown">
+                <button class="btn-dark border-0 dropdown-toggle class=" text-light"" data-bs-toggle="dropdown">Sign
+                    In</button>
+                <ul class="dropdown-menu dropdown-menu-dark p-2">
+                    <li> <a class="text-light text-decoration-none" href="login.html" class="dropdown-item active"><span
+                                class="fa fa-sign-in-alt"></span>Sign in</a></li>
+                    <li><a class="text-light text-decoration-none" href="register.html" class="dropdown-item"><span
+                                class="fa fa-sign-out-alt"></span>Sign-up</a></li>
+                    <li><a class="text-light text-decoration-none" href="#" class="dropdown-item"><span
+                                class="fa fa-unlock-alt"></span>change Password</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="w-100 bg-primary text-center text-light" style="height:45px; font-weight: bold; border-radius: 5px; ">
+        Details
+
+        <div class="dropdown d-inline-block position-absolute end-0 mt-1 " style="margin-right: 30px;">
+            <button class="btn btn-light dropdown-toggle " data-bs-toggle="dropdown">
+                <a href="#" class="text-decoration-none text-dark"><span class="fa fa-filter"></span>Filter</a>
+            </button>
+        </div>
+
+    </div>
+    <br>
+    <table class="table table-bordered ">
+        <thead class="bg-secondary">
+            <tr>
+                <th>Id</th>
+                <th>Course Name</th>
+                <th>Faculty Name</th>
+                <th>Duration</th>
+                <th>Timings</th>
+                <th>View</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Angular 8</td>
+                <td>Sudhakar Sharma sir</td>
+                <td>45 days</td>
+                <td>07:30 AM</td>
+                <td><a href="#"><button class="btn btn-warning" data-bs-target="#MyModal" data-bs-toggle="modal"><span
+                                class="fa fa-eye"></span>View</button></a></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Node Js</td>
+                <td>Shamba sir</td>
+                <td>45 days</td>
+                <td>09:00 AM</td>
+                <td><a href="#"><button class="btn btn-warning" data-bs-target="#MyModal1" data-bs-toggle="modal"><span
+                                class="fa fa-eye"></span>View</button></a></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Java</td>
+                <td>Hari Krishna sir</td>
+                <td>60 days</td>
+                <td>04:30 AM</td>
+                <td><a href="#"><button class="btn btn-warning" data-bs-target="#MyModal2" data-bs-toggle="modal"><span class="fa fa-eye"></span>View</button></a></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    <br>
+    <div class="footer bg-danger text-center text-light">
+        <div class="row ">
+            <h6 class="mt-4" style="text-shadow: 2px 2px 3px gray;">Naresh Technologies</h6><br><br>
+            <div class="m-lg-2 col-3 text-white">
+                <ul class="list-unstyled">
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fab fa-facebook"></span>facebook</a></li>
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fa fa-mail-bulk"></span>Google</a></li>
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fab fa-twitter"></span>Twitter</a></li>
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fab fa-youtube-square"></span>YouTube</a></li>
+                </ul>
+
+            </div>
+            <div class="col-3">
+                <ul class="list-unstyled">
+                    <li><a class="text-decoration-none text-white" href="#"><span class="fa fa-home"></span>Home</a>
+                    </li>
+                    <li><a class="text-decoration-none text-white" href="#"><span class="fa fa-user"></span>About</a>
+                    </li>
+                    <li><a class="text-decoration-none text-white" href="#"><span
+                                class="fa fa-question-circle"></span>Service</a></li>
+                    <li><a class="text-decoration-none text-white" href="#"><span class="fa fa-phone"></span>Contact</a>
+                    </li>
+                    <!-- <li><a href="#"><span class="fa fa-home"></span>Home</a></li> -->
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul class="list-unstyled">
+                    <li>Name: Naresh Institute</li>
+                    <li>Email: info@nareshit.in</li>
+                    <li>Contact: +91-xxxxxxxxxx</li>
+                    <li>Address: Sr Nagar, Hyderbad,Telangana, India.</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="MyModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Details:</h4>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <dl>
+                            <dt>Course:</dt>
+                            <dd>Angular 8</dd>
+                            <dt>Faculty:</dt>
+                            <dd>Sudhakar sharma sir</dd>
+                            <dt>Durations:</dt>
+                            <dd>45 days </dd>
+                            <dt>Timings:</dt>
+                            <dd>07:30 AM</dd>
+                            <dt>Description:</dt>
+                            <dd>Angular 8 is a client-side TypeScript based framework which is used to create dynamic
+                                web applications. It is very similar to its previous versions except having some
+                                extensive features.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="MyModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Details:</h4>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <dl>
+                            <dt>Course:</dt>
+                            <dd>Node js</dd>
+                            <dt>Faculty:</dt>
+                            <dd>Shamba sir</dd>
+                            <dt>Durations:</dt>
+                            <dd>45 days </dd>
+                            <dt>Timings:</dt>
+                            <dd>09:00 AM</dd>
+                            <dt>Description:</dt>
+                            <dd>Node.js connects the ease of a scripting language (JavaScript) with the power of Unix
+                                network programming. Node.js was built on the Google V8 JavaScript engine since it was
+                                open-sourced under the BSD license.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="MyModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Details:</h4>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <dl>
+                            <dt>Course:</dt>
+                            <dd>Java</dd>
+                            <dt>Faculty:</dt>
+                            <dd>Hari Krishna sir</dd>
+                            <dt>Durations:</dt>
+                            <dd>90 days </dd>
+                            <dt>Timings:</dt>
+                            <dd>04:30 AM</dd>
+                            <dt>Description:</dt>
+                            <dd>Java is an object-oriented programming language developed by Sun Microsystems, and it
+                                was released in 1995. ... Java Virtual Machine (JVM) executes Java code, but it has been
+                                written in platform-specific languages such as C/C++/ASM, etc.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
